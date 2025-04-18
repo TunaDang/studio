@@ -1,5 +1,4 @@
-# Firebase Studio
+# Astrofolio
 
-This is a NextJS starter in Firebase Studio.
+Revamped personal website with Astro and Next.js
 
-To get started, take a look at src/app/page.tsx.
