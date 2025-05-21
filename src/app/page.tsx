@@ -9,8 +9,8 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "CodeArena",
-    description: "LLM code generation and testing research. (S. Dutta, K. Ellis, A. Sowane, T. A. Dang, Jan-2025)",
+    title: "OmniCode",
+    description: "LLM Benchmark for Bug Fixing and Testing. (A. Sowane, C. Beger, T. A. Dang, K. Ellis, S. Dutta, etc., Jan-2025)",
     links: [
         { name: "Meta Grant", url: "https://www.linkedin.com/feed/update/urn:li:activity:7285756357046157314/" },
     ],
@@ -98,7 +98,7 @@ export default function Home() {
     <div className="container mx-auto p-4 max-w-4xl">
       <header className="mb-8 flex flex-col items-center text-center">
         <h1 className="text-4xl font-bold mb-2">Tuan Anh Dang</h1>
-        <p className="text-xl text-muted-foreground">CS M.Eng. Student at Cornell University</p>
+        <p className="text-xl text-muted-foreground">LLM Researcher, CS M.Eng. @ Cornell University</p>
       </header>
 
       <section className="mb-8 flex justify-center space-x-4">
@@ -119,8 +119,7 @@ export default function Home() {
       <section className="mb-8">
           <h2 className="text-3xl font-bold mb-4 text-center">About Me</h2>
           <p className="text-lg text-center max-w-2xl mx-auto">
-              Hello, my name is Tuan Anh Dang and I am a Master of Engineering student in CS @ Cornell.
-              My current research is with LLM code generation and testing <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7285756357046157314/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">CodeArena</Link>.
+              Hello, my name is Tuan and after finishing Master of Engineering in CS @ Cornell, I am doing research in LLM code generation and testing OmniCode (formerly <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7285756357046157314/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">CodeArena</Link>).
               Other areas of Machine Learning research experience/interest include CV and RL. Past data science and econometrics work in experimentation and causal inference for Walmart.com Ad Load Optimization.
               For more information, you can view my full credentials on <Link href="https://www.Linkedin.com/in/TuanAnhDang/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">LinkedIn</Link>.
           </p>
@@ -129,7 +128,7 @@ export default function Home() {
       <Separator className="my-8" />
 
       <section className="mb-8">
-        <h2 className="text-3xl font-bold mb-6 text-center">Personal Projects</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center">Current and Past Works</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 flex flex-col overflow-hidden">
